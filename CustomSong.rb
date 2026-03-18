@@ -37,8 +37,8 @@ sleep 3
 use_synth :prophet
 live_loop :bass do
   sample "C:/Users/Ethan_Barba/Downloads/you suck chants.wav", amp: 5
-  sleep 1
   2.times do
+    sleep 1
     play :f4, sustain: 2,  amp: 4
     sleep 1
     play :ab4, sustain: 2,  amp: 4
